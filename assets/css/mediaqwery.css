@@ -1,0 +1,110 @@
+@media screen and (max-width: 576px) {
+  header {
+    height: 220px;
+  }
+  header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 4.3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .box {
+    border: solid 8px;
+    border-image: linear-gradient(to right, #027d9a 50%, #3f6bca 50%) 1;
+    display: inline-block;
+    padding-top: 4px;
+  }
+  article ul li {
+    list-style-type: disc;
+    display: list-item;
+    margin-right: 10px;
+  }
+  table {
+    width: 90%;
+  }
+  section h2 {
+    text-transform: capitalize;
+    background-color: rgb(134, 159, 151);
+  }
+  aside h2 {
+    font-size: 3rem;
+  }
+  footer {
+    height: 220px;
+  }
+  footer p {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+}
+/* responsive tablet*/
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 1.8rem;
+  }
+  header ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  h1 {
+    font-size: 5.1rem;
+    margin-right: 26%;
+  }
+  article {
+    font-size: 2rem;
+  }
+  .box {
+    border: solid 8px;
+    border-image: linear-gradient(to right, #027d9a 50%, #3f6bca 50%) 1;
+    display: inline-block;
+    padding-top: 4px;
+  }
+  article h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  article ol {
+    margin-right: 6%;
+  }
+  table {
+    margin-left: 19%;
+    margin-bottom: 4em;
+  }
+  section h2 {
+    text-transform: capitalize;
+    background-color: rgb(134, 159, 151);
+  }
+  section p {
+    font-size: 1.8rem;
+  }
+  input {
+    width: 70%;
+    height: 4.5rem;
+  }
+
+  button {
+    height: 4.5rem;
+    width: 10.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  aside {
+    font-size: 1.3rem;
+  }
+
+  footer {
+    height: 200px;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  footer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
