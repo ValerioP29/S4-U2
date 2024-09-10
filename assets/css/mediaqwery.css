@@ -207,3 +207,14 @@
     padding-top: 40px;
   }
 }
+@media print {
+  /* Regole CSS specifiche per la stampa */
+  body {
+    font-size: 16pt;
+    color: black;
+  }
+
+  .no-print {
+    display: none;
+  }
+}
